@@ -5,7 +5,12 @@ const Newsletter = () => {
   return (
     <article className="flex gap-5 h-max">
       <div className="relative lg:flex hidden w-100 shadow-xl">
-        <Image className="rounded-md" src="/img/background.png" alt="" fill />
+        <Image
+          className="rounded-md"
+          src="https://placehold.co/600x400.jpeg"
+          alt=""
+          fill
+        />
       </div>
       <div className="flex flex-col shadow-xl gap-5 text-background p-5 bg-(--bg-banner) rounded-md w-full">
         <h2 className="uppercase font-bold text-2xl">

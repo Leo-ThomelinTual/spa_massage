@@ -34,8 +34,8 @@ export const Modale = ({
               </button>
             </article>
             <section className="w-full shadow-lg h-full rounded-md bg-(--alt-background)">
-              <article className="p-3 md:p-5 h-full flex flex-col gap-3">
-                <p className="bg-(--danger) rounded-md text-background font-bold p-3 items-center flex">
+              <article className="p-3 md:p-5 h-full flex flex-col gap-3 relative">
+                <p className="bg-(--danger) rounded-md text-background font-bold sticky top-0 p-3 items-center flex">
                   {productWarning}
                 </p>
                 <article className="h-full flex flex-col gap-3">

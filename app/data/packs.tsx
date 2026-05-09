@@ -1,7 +1,7 @@
 export const packs = [
   {
     id: "1",
-    imageSrc: "/img/background.png",
+    imageSrc: "https://placehold.co/500x500.jpeg",
     imageAlt: "",
     packType: "Pack",
     packName: "Pack name",
@@ -14,7 +14,7 @@ export const packs = [
   },
   {
     id: "2",
-    imageSrc: "/img/background.png",
+    imageSrc: "https://placehold.co/500x500.jpeg",
     imageAlt: "",
     packType: "Pack",
     packName: "Pack name",
@@ -27,7 +27,7 @@ export const packs = [
   },
   {
     id: "3",
-    imageSrc: "/img/background.png",
+    imageSrc: "https://placehold.co/500x500.jpeg",
     imageAlt: "",
     packType: "Pack",
     packName: "Pack name",

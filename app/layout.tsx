@@ -3,7 +3,7 @@ import "./globals.css";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "Harmonie Massage",
+  title: "Website name",
   description: "Site vitrine de message",
 };
 
@@ -17,7 +17,7 @@ export default function RootLayout({
       <Head>
         <meta name="viewport" content="viewport-fit=cover" />
       </Head>
-      <body className="">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

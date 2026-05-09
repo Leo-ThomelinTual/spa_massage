@@ -35,8 +35,8 @@ const ModalPack = ({
               </button>
             </article>
             <section className="w-full overflow-y-scroll shadow-lg h-full rounded-md bg-(--alt-background)">
-              <article className="p-3 md:p-5 h-max flex flex-col gap-3">
-                <p className="bg-(--danger) rounded-md text-background font-bold p-3 items-center flex">
+              <article className="p-3 md:p-5 h-max flex flex-col gap-3 realtive">
+                <p className="bg-(--danger) rounded-md text-background font-bold sticky top-3 p-3 items-center flex">
                   {PackWarning}
                 </p>
                 <article className="h-full flex flex-col gap-3 text-foreground">

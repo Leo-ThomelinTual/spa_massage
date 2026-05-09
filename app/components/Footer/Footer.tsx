@@ -17,10 +17,10 @@ const Footer = () => {
           </ul>
         </article>
         <article className="w-100 flex flex-col items-center h-max gap-5">
-          <h2 className="uppercase text-2xl">Légals</h2>
+          <h2 className="uppercase text-2xl">Légal</h2>
           <ul>
-            <li>Placeholder</li>
-            <li>Placeholder</li>
+            <li>CGV</li>
+            <li>CGU & mentions légales</li>
             <li>Placeholder</li>
           </ul>
         </article>

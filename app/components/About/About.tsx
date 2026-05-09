@@ -6,7 +6,11 @@ const About = () => {
     <article className="flex gap-8 items-center w-full h-max relative">
       <div className="absolute -top-70" id="aboutme" />
       <div className="w-150 relative md:flex hidden h-100">
-        <Image src="/img/background.png" fill alt="t" />
+        <Image
+          src="https://placehold.co/700x700.jpeg"
+          fill
+          alt="placeholder de taille 700x700."
+        />
       </div>
       <div className="flex flex-col gap-3 w-full h-max">
         <h2 className="uppercase font-bold text-2xl">Qui je suis ?</h2>
